@@ -1,15 +1,13 @@
 package method;
 public class Method {
-    /*
-     * method file
-     * using variable
-     * addition of two 
-     */
-     public static void main(String[] args) {
-        int x=10; //this is int x value
-        int y=55; //this is int y value
-        int z=x+y; // result 
-        System.out.println("Addition of 10 & 55: "+x);
+     public static void add(int x,int y) {
+        int z=x+y; 
+        System.out.println("Addition: "+z);
+    }
+    public void main(String args []){
+        Method obj=new Method();
+        obj.add(12,34);
+
     }
 }
 
