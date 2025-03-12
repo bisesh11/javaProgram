@@ -1,7 +1,7 @@
 package returnType;
 
 public class Return {
-    public stati add(int x,int y){
+    public int add(int x,int y){
         int z=x+y;
         return z;
     }
