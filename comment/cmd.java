@@ -1,4 +1,4 @@
-package command;
+package comment;
 public class cmd {
     /*
      1 cmd file
