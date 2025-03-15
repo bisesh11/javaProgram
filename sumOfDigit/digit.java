@@ -2,15 +2,14 @@ package sumOfDigit;
 import java.util.*;
 public class digit{
     public static void  main(String args[]){
-        Scanner obj=new Scanner(System.in);
+        Scanner Scan=new Scanner(System.in);
         System.out.println("enter no.: ");
-        int n=obj.nextInt();
-       
+        int n=Scan.nextInt();
         int sum=0;
-        for(int i=1;i<=n;i++){
-        sum +=i;
+        while(n>0){
+        sum +=n %10;
+        n/=10; 
     }
-    System.out.println("total sum of no. from 1 to  "+n+"is: " +sum );
-    obj.close();
+    System.out.println("total sum : " +sum );
 }
 }
