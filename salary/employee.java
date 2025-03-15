@@ -10,7 +10,7 @@ import java.util.Scanner;
          double basic = scan.nextDouble(); 
          
          if (occupation == 1) {
-             result = basic + (0.2 * basic); 
+             result = basic + (0.2 * basic); //
              System.out.println("Salary: " + result);
          } else if (occupation == 2) {
              result = basic + (0.1 * basic);
