@@ -1,6 +1,6 @@
 package sumOfDigit;
 import java.util.*;
-public class digit{
+public class digit{   //sum of digit
     public static void  main(String args[]){
         Scanner Scan=new Scanner(System.in);
         System.out.println("enter no.: ");
